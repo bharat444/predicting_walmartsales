@@ -18,20 +18,35 @@ Improving Store Checkout: By using Predictive Analysis, the stores can anticipat
 # Parameters Selected:
 
 **Store**: This is the store number, and it ranges from 1-45
+
 **Dept**: It is the department number, it ranged from 1-99, for different categories of items.
+
 **Date**: The Week
+
 **IsHoliday**: whether that specific week has a special holiday in it
+
 **Weekly_Sales**: Store weekly total amount in USD
+
 **Temperature**: The average weekly temperature of the particular store region in Fahrenheit
+
 **Fuel_Price**: Cost of Fuel of the particular store region in USD
+
 **MarkDown1-5**: Anonymized Data related to Walmart's promotional markdown is only available after November 2011, and not all stores have it
+
 **CPI**: Consumer Price Index of specific store region for the week
+
 **Unemployment**: The unemployment rate of a particular store region for the month
+
 **Type**: Type of the store, A, B or C
+
 **Size**: Size of the specific store measured in square feet
-# 
+
+# Time Series and Regression method comparison
+
+The models are compared against each other using performance measures of MSE, MAE, RMSE. HW has the lowest error in MAE, MSE, and RMSE, and it is the best model to predict the test set from the train set. Surprisingly, the time series models perform much better than regression models.
 
 # Observation:
+
 - Time series models outperform regression models, especially Holt-Winters (HW), due to their ability to predict past values.
   
 - Regression models may not capture complex patterns in time series data due to reliance on known attributes.
@@ -39,6 +54,44 @@ Improving Store Checkout: By using Predictive Analysis, the stores can anticipat
 - Limited correlation between attributes and weekly sales may have hindered regression model performance.
   
 - Improvement areas include increasing hyperparameter tuning parameters, applying Holt-Winters to all stores and departments, and addressing technical issues with WMAE.
+
+# Challenges:
+
+- **Data quality**: Ensuring the quality and completeness of the Walmart Dataset from Kaggle, including handling missing values, outliers, and inconsistencies.
+  
+- **Complex relationships**: Capturing and modelling the complex relationships between various factors influencing sales, such as seasonality, promotions, economic conditions, and consumer behaviour.
+
+- **Model selection**: Choosing the most appropriate predictive algorithms from a wide range of options, considering factors like interpretability, scalability, and computational complexity.
+  
+- **Overfitting**: Preventing overfitting of the models to the training data, especially in regression models with a high number of features, to ensure generalizability to unseen data.
+  
+- **Scalability**: Ensuring that the selected models can scale effectively to handle the large volume of data from Walmart's thousands of stores worldwide.
+  
+- **Interpretability**: Balancing the need for accurate predictions with the requirement for interpretable models that stakeholders can understand and trust in making management decisions.
+  
+- **Deployment**: Overcoming challenges related to deploying the selected model into production, including integration with existing systems, maintenance, and monitoring.
+  
+- **Resource constraints**: Managing resource constraints, such as computing power, time, and expertise, throughout the project lifecycle, especially given the scale and complexity of the Walmart retail environment.
+  
+# Future Scope:
+
+- **Expansion to other retail sectors**: Extend the project's scope to other retail sectors beyond Walmart, exploring how similar predictive models can be applied to different industries such as fashion, electronics, or automotive.
+
+- **Real-time sales forecasting**: Develop real-time sales forecasting capabilities to enable Walmart and other retailers to react promptly to changing market conditions and consumer behaviour, leveraging streaming data and advanced analytics.
+  
+- **Incorporation of external data sources**: Integrate additional external data sources, such as weather data, social media trends, or economic indicators, to enhance the accuracy and granularity of sales predictions.
+  
+- **Personalized marketing strategies**: Use predictive analytics to tailor marketing strategies and promotions to individual customer preferences, optimizing customer engagement and loyalty.
+  
+- **Inventory optimization**: Extend the project to include inventory optimization capabilities, leveraging predictive analytics to forecast demand more accurately and optimize inventory levels across Walmart's extensive supply chain network.
+  
+- **Expansion to omnichannel retailing**: Adapt the predictive models to support omnichannel retailing, encompassing both online and offline sales channels, to provide a seamless shopping experience for customers and optimize overall sales performance.
+  
+- **Collaboration with suppliers**: Collaborate with Walmart's suppliers to share sales forecasts and demand predictions, fostering better coordination and efficiency in the supply chain.
+  
+- **Integration with IoT and sensor data**: Explore the integration of Internet of Things (IoT) devices and sensor data from stores and warehouses to capture real-time insights into customer behavior, product popularity, and inventory movement.
+  
+- **Predictive analytics for pricing optimization**: Extend the project to include pricing optimization capabilities, using predictive analytics to determine optimal pricing strategies for different products and market segments, maximizing revenue and profitability.
 
 
 
