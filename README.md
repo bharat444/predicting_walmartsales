@@ -35,10 +35,13 @@ and much more…
 **Unemployment**: This column shows unemployment rates, represented as decimals to provide detailed information.
 
 # Observation:
-Time series models outperform regression models, especially Holt-Winters (HW), due to their ability to predict past values.
-Regression models may not capture complex patterns in time series data due to reliance on known attributes.
-Limited correlation between attributes and weekly sales may have hindered regression model performance.
-Improvement areas include increasing hyperparameter tuning parameters, applying Holt-Winters to all stores and departments, and addressing technical issues with WMAE.
+- Time series models outperform regression models, especially Holt-Winters (HW), due to their ability to predict past values.
+  
+- Regression models may not capture complex patterns in time series data due to reliance on known attributes.
+  
+- Limited correlation between attributes and weekly sales may have hindered regression model performance.
+  
+- Improvement areas include increasing hyperparameter tuning parameters, applying Holt-Winters to all stores and departments, and addressing technical issues with WMAE.
 
 
 
