@@ -41,6 +41,11 @@ Improving Store Checkout: By using Predictive Analysis, the stores can anticipat
 
 **Size**: Size of the specific store measured in square feet
 
+# Methodologies Applied
+
+![image](https://github.com/bharat444/predicting_walmartsales/assets/110676765/f24da416-ff92-4083-8ad5-776442dd6214)
+
+
 # Time Series and Regression method comparison
 
 The models are compared against each other using performance measures of MSE, MAE, RMSE. HW has the lowest error in MAE, MSE, and RMSE, and it is the best model to predict the test set from the train set. Surprisingly, the time series models perform much better than regression models.
