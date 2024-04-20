@@ -35,15 +35,10 @@ and much more…
 **Unemployment**: This column shows unemployment rates, represented as decimals to provide detailed information.
 
 # Observation:
--2011 has recorded highest number of sales then followed by 2010 and 2012.
-
--More than 50% of sales happen on Thursday.
-
--Highest sales are recorded in April then followed by May, October, December ,September although their is little variance.
-
--Most sales comes on non special holiday week which makes sense people may not want to spend their special grocery shopping they would probably shop before to celebrate their special holiday. Like for Christmas week, people go for shopping on weeks before.
-
--All stores have equal number of sales yet store 20 has recorded highest sales.
+Time series models outperform regression models, especially Holt-Winters (HW), due to their ability to predict past values.
+Regression models may not capture complex patterns in time series data due to reliance on known attributes.
+Limited correlation between attributes and weekly sales may have hindered regression model performance.
+Improvement areas include increasing hyperparameter tuning parameters, applying Holt-Winters to all stores and departments, and addressing technical issues with WMAE.
 
 
 
