@@ -93,21 +93,21 @@ The models are compared against each other using performance measures of MSE, MA
   
 - **Predictive analytics for pricing optimization**: Extend the project to include pricing optimization capabilities, using predictive analytics to determine optimal pricing strategies for different products and market segments, maximizing revenue and profitability.
 
-# Used Tools and Technologies
+# Used Libraries and Modules
 
 1. **numpy (np)**: NumPy is used for numerical computing and provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions.
 
-2. **pandas (pd)**: Pandas is used for data manipulation and analysis, providing data structures and operations for manipulating numerical tables and time series data.
+2. **pandas (pd)**: Pandas are used for data manipulation and analysis, providing data structures and operations for manipulating numerical tables and time series data.
 
 3. **flask**: Flask is a micro web framework for building web applications in Python. It is used in this project to create a web interface for users to input movie names and receive recommendations.
 
-4. **sklearn**: Scikit-learn is a machine learning library in Python, providing simple and efficient tools for data mining and data analysis. In this project, it is used for feature extraction, model training, and evaluation.
+4. **sklearn**: Scikit-learn is a machine learning library in Python, that provides simple and efficient tools for data mining and data analysis. In this project, it is used for feature extraction, model training, and evaluation.
 
 5. **CountVectorizer**: CountVectorizer is a feature extraction technique used for converting text data into numerical feature vectors. It is commonly used in natural language processing tasks, such as sentiment analysis.
 
 6. **cosine_similarity**: Cosine similarity is a measure of similarity between two vectors by measuring the cosine of the angle between them. It is used in this project to compute the similarity between movie descriptions for recommendation purposes.
 
-7. **json**: The json module provides functions for encoding and decoding JSON data. It is used for parsing JSON responses from APIs.
+7. **json**: The JSON module provides functions for encoding and decoding JSON data. It is used for parsing JSON responses from APIs.
 
 8. **bs4 (Beautiful Soup)**: Beautiful Soup is a Python library for web scraping. It is used in this project to scrape user reviews from the IMDb website.
 
