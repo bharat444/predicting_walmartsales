@@ -158,4 +158,14 @@ The models are compared against each other using performance measures of MSE, MA
 
 - Mentzer, J. T., & Moon, M. A. (2004). Sales forecasting management: A demand management approach. Sage Publications.
 
+## Contributors
+
+| S/N | Full Name | Student ID |
+| --- | --------- | ---------- |
+| 1 | Aljesh Basnet | C0919827 |
+| 2 | Bharat Dhungana | C0916253 |
+| 3 | Bijay Adhikari | C0883819 |
+| 4 | Satish Kandel | C0916210 |
+| 5 | Shishir Dhakal | C0913605 |
+
 
