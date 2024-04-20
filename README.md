@@ -93,5 +93,63 @@ The models are compared against each other using performance measures of MSE, MA
   
 - **Predictive analytics for pricing optimization**: Extend the project to include pricing optimization capabilities, using predictive analytics to determine optimal pricing strategies for different products and market segments, maximizing revenue and profitability.
 
+# Used Tools and Technologies
+
+1. **numpy (np)**: NumPy is used for numerical computing and provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions.
+
+2. **pandas (pd)**: Pandas is used for data manipulation and analysis, providing data structures and operations for manipulating numerical tables and time series data.
+
+3. **flask**: Flask is a micro web framework for building web applications in Python. It is used in this project to create a web interface for users to input movie names and receive recommendations.
+
+4. **sklearn**: Scikit-learn is a machine learning library in Python, providing simple and efficient tools for data mining and data analysis. In this project, it is used for feature extraction, model training, and evaluation.
+
+5. **CountVectorizer**: CountVectorizer is a feature extraction technique used for converting text data into numerical feature vectors. It is commonly used in natural language processing tasks, such as sentiment analysis.
+
+6. **cosine_similarity**: Cosine similarity is a measure of similarity between two vectors by measuring the cosine of the angle between them. It is used in this project to compute the similarity between movie descriptions for recommendation purposes.
+
+7. **json**: The json module provides functions for encoding and decoding JSON data. It is used for parsing JSON responses from APIs.
+
+8. **bs4 (Beautiful Soup)**: Beautiful Soup is a Python library for web scraping. It is used in this project to scrape user reviews from the IMDb website.
+
+9. **urllib.request**: The urllib.request module is used for opening and reading URLs. It is used in conjunction with Beautiful Soup for web scraping.
+
+10. **pickle**: The pickle module is used for serializing and deserializing Python objects. It is used in this project to save and load machine learning models.
+
+11. **requests**: The requests module is used for making HTTP requests in Python. It is used to fetch movie details and posters from the TMDb API.
+
+12. **tmdbv3api (TMDb)**: TMDb is a Python wrapper for The Movie Database (TMDb) API. It is used in this project to fetch movie details and posters for recommendation purposes.
+
+# Used Tools and Technologies
+
+- GitHub
+  
+- GitLab
+  
+- Google Collaborator
+  
+- Canva
+  
+- Zoom & Teams
+
+
+# References:
+
+- Bonnes, K. (2014). Predictive analytics for supply chains: A systematic literature review. In 21st Twente Student Conference on IT. Netherlands.
+
+- Catal, C., Kaan, E. C. E., Arslan, B., & Akbulut, A. (2019). Benchmarking of regression algorithms and time series analysis techniques for sales forecasting. Balkan Journal of Electrical and Computer Engineering, 7(1), 20-26.
+
+- Hüülsmann, M., Borscheid, D., Friedrich, C. M., & Reith, D. (2012). General sales forecast models for automobile markets and their analysis. Trans. MLDM, 5(2), 65-86.
+
+- Jain, A., Menon, M. N., & Chandra, S. (2015). Sales forecasting for retail chains.
+
+- Knott, B., Liu, H., & Simpson, A. (2015). Predicting sales for Rossmann drug stores.
+
+- Lasek, A., Cercone, N., & Saunders, J. (2016). Restaurant sales and customer demand forecasting: Literature survey and categorization of methods. In Smart City 360° (pp. 479-491). Springer, Cham.
+
+- Makatjane, K. D., & Moroke, N. D. (2016). Comparative study of Holt-Winters triple exponential smoothing and seasonal ARIMA: Forecasting short term seasonal car sales in South Africa. Risk Governance and Control: Financial Markets and Institutions, 6(1), 71-82.
+
+- Massaro, A., Maritati, V., & Galiano, A. (2018). Data mining model performance of sales predictive algorithms based on RapidMiner workflows. International Journal of Computer Science & Information Technology (IJCSIT), 10(3), 39-56.
+
+- Mentzer, J. T., & Moon, M. A. (2004). Sales forecasting management: A demand management approach. Sage Publications.
 
 
