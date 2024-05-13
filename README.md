@@ -156,7 +156,7 @@ The models are compared against each other using performance measures of MSE, MA
 
 - Massaro, A., Maritati, V., & Galiano, A. (2018). Data mining model performance of sales predictive algorithms based on RapidMiner workflows. International Journal of Computer Science & Information Technology (IJCSIT), 10(3), 39-56.
 
-- Mentzer, J. T., & Moon, M. A. (2004). Sales forecasting management: A demand management approach. Sage Publications.
+- Mentzer, J. T., & Moon, M. A. (2004). Sales forecasting management: A demand management approach. Sage Publications
 
 ## Contributors
 
